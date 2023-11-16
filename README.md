@@ -22,3 +22,7 @@ Because this project is pure HTML and CSS, you have two options:
 
 1. You can open the `index.html` file directly in-browser
 2. You can run `npm install` to install the `live-server` dependency, and then run `npm run start` to start a local file server. You'll be able to access the page at `http://localhost:5200` (assuming that the port is free).
+
+## Note to self
+
+Really cool grays! _Global_ CSS variables should go on the `html`/`:root` tag!

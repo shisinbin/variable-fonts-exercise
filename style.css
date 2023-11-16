@@ -20,7 +20,8 @@ html {
   --weight-extra-bold: 800;
   --weight-black: 900;
 
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif; */
+  --main-font: 'Raleway', sans-serif;
 }
 
 html,
@@ -28,6 +29,11 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
+}
+
+/* too much abstraction? */
+body {
+  font-family: var(--main-font);
 }
 
 .wrapper {
